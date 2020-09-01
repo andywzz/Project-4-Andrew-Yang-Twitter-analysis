@@ -1,45 +1,45 @@
-\# Twitter data analysis: Andrew Yang in Arizona
+# Twitter data analysis: Andrew Yang in Arizona
 
 Scraping and analyzing the sentiment and topic of tweets related to
 Andrew Yang from Arizona.
 
-\#\# Project Pipeline
+## Project Pipeline
 
-\#\#\# Data Acquisition
+### Data Acquisition
 
 Using tweepy and getOldTweets3, data was collected and stored in a Mysql
 instance on google cloud.
 
-\#\#\# Data Processing
+### Data Processing
 
 -   Getting rid of duplicates,retweets,emojis. Tokenizing the tweets,
     > lemmatizing it, and finally vectorize and add stop words and
     > n\_grams.
 
-\#\#\# Modeling
+### Modeling
 
-\#\#\#\# Sentiment analysis
+#### Sentiment analysis
 
 Textblob was used to compute the subjectivity and polarity scores.
 
-\#\#\#\# Topic modeling
+#### Topic modeling
 
 LSA, NFM, LDA were attempted, K means clustering was also attempted. NFM
 gave the best results.
 
-\#\#\#\# Visualization
+#### Visualization
 
 TSNE and multidimensional scaling(MDS) were used. Wordcloud was used as
 a supplement visualization tool.
 
-\#\# Deliverables
+## Deliverables
 
-\#\#\#\# Notebooks
+#### Notebooks
 
 NLP\_Unsupervised
 
-\#\#\#\# Presentation
+#### Presentation
 
-\[project\_4.pdf\](/Presentation/project\_4.pdf)
+[project\_4.pdf\](/Presentation/project\_4.pdf)
 
-\[project\_4.pptx\](/Presentation/project\_4.pptx)
+[project\_4.pptx\](/Presentation/project\_4.pptx)
